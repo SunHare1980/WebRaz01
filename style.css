@@ -1,0 +1,30 @@
+.photo {
+
+   padding: 40px;
+   # padding - это внутренний отступ
+   # Для внешних отступов используется margin
+}
+.info {
+   padding: 40px;
+   height: 40%;
+}
+img {
+   position: relative;
+   left:15%;
+   border-radius: 20px;
+   width: 70%;
+}
+
+.card {
+   background-color: darkgray;
+   border-radius: 20px;
+    padding: 40px;
+   width: 30%;
+    margin: 20px
+}
+
+div:hover {
+    background-color: gold;
+    # добавляем свойство для плавности:
+    transition: 1s;
+}
